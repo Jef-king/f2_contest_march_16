@@ -7,7 +7,7 @@ let arr = [
 ];
 
 function PrintDeveloperbyMap() {
-  let PrintDeveloper=arr.map(arr=>arr.profession==='developer')
+  let PrintDeveloper=arr.filter(arr=>arr.profession==='developer')
 console.log(PrintDeveloper);
 }
 
